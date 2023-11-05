@@ -15,6 +15,7 @@ class StorageUtil {
 
   static Future<void> init() async {
     _prefs ??= await SharedPreferences.getInstance();
+    //_prefs?.setMockInitialValues({});
   }
 
   Future<bool>? setJSON(String key, dynamic jsonVal) {
