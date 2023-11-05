@@ -1,9 +1,18 @@
 name: Build linux
 
-on:
-  push:
-    tags:
-      - v*linux
+on: 
+    workflow_dispatch:
+        inputs:
+            logLevel:
+                description: 'Log level'     
+                required: true
+                default: 'warning'
+            tags:
+                description: 'Test scenario tags'  
+
+    push:
+        tags:
+        - v*linux
 
 jobs:
   process:
