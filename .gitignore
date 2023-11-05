@@ -74,3 +74,5 @@ scripts/FEhViewer.AppDir/syslib
 scripts/FEhViewer.AppDir/data
 scripts/FEhViewer.AppDir/fehviewer
 scripts/appimagetool-x86_64.AppImage
+scripts/FEhViewer-x86_64.AppImage
+scripts/FEhViewer.AppDir/.DirIcon
